@@ -6,7 +6,7 @@
 
 void exe_to_swf(const char *, const char *);
 
-int main(int argc, char *argv[]) {
+int main(int argc, char** argv) {
   DIR *d;
   struct dirent *dir;
   d = opendir("files/");
